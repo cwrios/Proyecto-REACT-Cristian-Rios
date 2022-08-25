@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Form = (contBuscar) => {
+const Form = ({contBuscar}) => {
     return (
         <>
          <form className="d-flex">

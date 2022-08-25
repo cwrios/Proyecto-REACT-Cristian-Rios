@@ -1,12 +1,15 @@
 import React from "react";
-
+import Form from "./Form";
+import img from "../../src/img/logo.jpg";
+import Cartwidget from "./Cartwidget/Cartwidget";
 const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
+        <img src={img} alt="" className="img-contain" />
           <a className="navbar-brand" href="#">
-            Navbar
+            Mi tienda
           </a>
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto">
@@ -32,7 +35,8 @@ const NavBar = () => {
                 </a>
               </li>
             </ul>
-            {/* <Form contBuscar="Productos"/> */}
+            <Cartwidget />
+            <Form contBuscar="Productos" />
           </div>
         </div>
       </nav>

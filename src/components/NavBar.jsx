@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import './NavBar.css'
 import img from "../../src/img/logo.jpg";
 import Cartwidget from "./Cartwidget/Cartwidget";
 const NavBar = () => {
@@ -7,7 +8,7 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-        <img src={img} alt="" className="img-contain" />
+        <img src={img} alt="" className="logo" />
           <a className="navbar-brand" href="#">
             Mi tienda
           </a>

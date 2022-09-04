@@ -1,26 +1,31 @@
-[
+const productos =[
     {
         "id":1,
         "nombre":"Guardapolvo Acrocel Blanco", 
         "precio":3500,
-        "imagen":"./acrocel_blanco.jpeg"
+        "stock": 20,
+        "imagen":"../img/imgprod/acrocel_blanco.jpeg"
     },
     {
         "id":2,
         "nombre":"Guardapolvo Acrocel color", 
         "precio":3600,
-        "imagen":"./acrocel_color.jpeg"
+        "stock": 25,
+        "imagen":"../img/imgprod/acrocel_color.jpeg"
     },
     {
         "id":3,
         "nombre":"Guardapolvo Tropical Mecanica Blanco", 
         "precio":3700,
-        "imagen":"./tropical_mec_blanca.jpeg"
+        "stock": 30,
+        "imagen":"../img/imgprod/tropical_mec_blanca.jpeg"
     },
     {
         "id":4,
         "nombre":"Guardapolvo Tropical Mecanica Color", 
         "precio":3800,
-        "imagen":"./tropical_mec_color.jpeg"
+        "stock": 35,
+        "imagen":"../img/imgprod/tropical_mec_color.jpeg"
     }
-]
+];
+export default productos;

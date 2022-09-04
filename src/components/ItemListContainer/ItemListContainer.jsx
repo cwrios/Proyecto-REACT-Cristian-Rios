@@ -31,7 +31,7 @@ const [productosList, setProductosList] = useState([])
     return (
         <div>
             <ItemList productosList={productosList}/>
-            {/* <Item/> */}
+            <Item/> 
 
         </div>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Contador from '../Contador/Contador';
 
-const Item = () => {
+const Item = (productosList) => {
     // nombre= 'Producto test',
     // precio=200,
     // stock=20,
@@ -21,7 +21,7 @@ const Item = () => {
         <Contador stock={10} />
     
     </div>
-        
+
     )
     }
 
